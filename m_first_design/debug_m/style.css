@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/* header section */
+
+header {
+    width: 100%;
+    padding: 20px 20px 20px 50px;
+
+    position: absolute;
+    top: 0;
+    position: absolute;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 100px;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin: auto;
+}
+/* header section end */
+
+/* banner section */
+.banner-container {
+    height: 100vh;
+    background: linear-gradient(to bottom, #031d20, #040629);
+    display: flex;
+    background-attachment: fixed;
+    width: 100%;
+}
+.banner-container .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* left-section start*/
+.left-section{
+    max-width: 600px;
+}
+.left-section h1 {
+    font-size: 40px;
+    color: white;
+    font-family: Tahoma;
+}
+.left-section p {
+    font-size: 16px;
+    color: rgba(255,255,255, .55);
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.left-section button{
+    background-color: white;
+    color: #040629;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 11px 40px;
+    border-radius: 5px;
+    font-family: tahoma;
+    cursor: pointer;
+    
+}
+/* left-section end */
+
+
+/* right section start */
+.right-section{
+    background-color: white;
+    width: 400px;
+    padding: 40px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 6px rgb(117, 116, 114);
+}
+
+.right-section h4{
+    width: 300px;
+    font-size: 20px;
+    font-family: tahoma;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    color: #040629;;
+}
+
+.right-section .input-section{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px auto;
+    position: relative;
+    
+}
+.right-section .input-section input{
+    
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px red ;
+    color: green;
+    caret-color: red;
+    
+}
+
+.input-section input:valid {
+    border-bottom: solid 1px green ;
+    caret-color: green;
+}
+
+
+.input-section label{
+    font-size: 14px;
+    font-family: tahoma;
+    color: red;
+    position: absolute;
+    top: 10px;
+    transition:  ease-in-out 0.5s;
+}
+
+.input-section input:focus ~ label,
+.input-section input:valid ~ label{
+    top: -10px;
+    color: green;
+    font-size: 12px;
+    
+}
+.submit-section{
+    text-align: center;
+}
+
+.submit-btn{
+    padding: 10px 0;
+    width: 300px;
+    margin: 30px auto;
+    background-color:#040629;
+    color: white;
+    font-family: tahoma;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* right section end */
+
+
+/* banner section end */
+
+/*  section two */
+
+.card-cantainer{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 8px 50px  #9891f5;
+    overflow: hidden;
+    margin: 15px 0;
+   
+  
+}
+.image-container{
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(to bottom, #031d20, hwb(237 2% 84%));
+   /* background-size:cover; */
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.section-two .card-cantainer h1{
+    color: #040629;
+    text-align: center;
+    padding: 8px 0;
+    
+}
+
+/*  section two */
